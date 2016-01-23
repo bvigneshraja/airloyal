@@ -90,7 +90,7 @@ ul.secondary-menu li.active a{
 }
 .secondnav{
 	padding:2px 0;
-	border:1px solid gainsboro;
+	border-bottom:1px solid gainsboro;
 }
 .content-header h3{
 	margin: 50px 0 20px;
@@ -184,7 +184,6 @@ ul.social-icons-list{
 }
 .address-holder address{
 	margin-left: 25px;
-	font-weight: 800;
 }
 .privacy-holder a{
 	text-transform:uppercase;
