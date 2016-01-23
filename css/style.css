@@ -1,5 +1,6 @@
 body{
 	margin:0 auto;
+
 }
 .responsive-menu{
 	display: none;
@@ -9,6 +10,15 @@ body{
 }
 .logo img{
 	width:100%;
+}
+.babysection img{
+	width:100%;
+	height:auto;
+	display: block;
+	margin:0 auto;
+}
+.babysection .container-fluid{
+	padding:0;
 }
 .menu-container ul.menu, ul.secondary-menu, ul.footer-menu, ul.social-icons-list{
 	display: flex;
@@ -156,12 +166,12 @@ h3#pause-survey::after {
 .content-section{
 	margin-bottom: 6%;
 }
-.babysection{
+/*.babysection{
 	background:url('../images/baby.jpg') no-repeat center;
 	background-size: 100%;
 	background-position: 0 -22px;
 	height: 400px;
-}
+}*/
 footer{
 	background-color: #323753;
 	min-height: 200px;
@@ -306,9 +316,9 @@ li.active a{
 ul.secondary-menu li a{
 	padding-bottom: 8px;
 }
-.babysection{
+/*.babysection{
 	height:310px;
-}
+}*/
 .search-container{
 	display: none;
 }
@@ -330,9 +340,9 @@ ul.secondary-menu li a{
 	.content-header h3{
 		margin-top: 35px;
 	}
-	.babysection{
+	/*.babysection{
 		height:229px;
-	}
+	}*/
 	ul.footer-menu li a{
 		font-size: 0.9em;
 	}
@@ -370,9 +380,9 @@ ul.secondary-menu li a{
 	.content-holder h4{
 		margin-bottom: 25px;
 	}
-	.babysection{
+	/*.babysection{
 		height:163px;
-	}
+	}*/
 	
 	footer ul{
 		margin-left: -15px;
@@ -384,6 +394,9 @@ ul.secondary-menu li a{
 	}
 	.responsive-menu{
 		display: block !important;
+		float:right;
+		margin-top: -10px;
+		position:relative;
 	}
 	.responsive-menu button{
 		margin-top: 10px;
@@ -430,6 +443,7 @@ ul.secondary-menu li a{
 }
 .logo img {
     width: 60%;
+    float:left;
 }
 .faq h3{
 	margin-bottom: 25px;
@@ -456,17 +470,7 @@ ul.social-icons-list li{
 .hero .faq{
 	top:4%;
 }
-.babysection{
+/*.babysection{
 	height:136px;
-}	
-}
-@media only screen and (min-width:375px) and (max-width:667px){
-.babysection{
-	height:195px !important;
-}
-}
-@media only screen and (min-width:375px) and (max-width:667px) and (orientation:portrait){
-.babysection{
-	height:100px;
-}
+}*/	
 }
