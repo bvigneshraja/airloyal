@@ -1,8 +1,12 @@
 body{
 	margin:0 auto;
 }
+
 .header-container{
 	padding:30px 0 20px;
+}
+.logo img{
+	width:100%;
 }
 .menu-container ul.menu, ul.secondary-menu, ul.footer-menu, ul.social-icons-list{
 	display: flex;
@@ -29,7 +33,7 @@ ul.secondary-menu li a{
 	padding-bottom:10px;
 }
 ul.menu li{
-	padding: 8px 0;
+	padding: 11px 0;
 }
 ul.menu li a, ul.secondary-menu li a, ul.footer-menu li a{
 	cursor:pointer;
@@ -65,15 +69,24 @@ ul.secondary-menu li.active a{
 	font-weight: bold;
 }
 .hero{
-	background:url('../images/hero-img.jpg') no-repeat center;
-	background-size: 100%;
-	min-height: 375px;
-	max-height: 375px;
+	background:url('../images/hero-img.jpg') no-repeat;
+	background-size:100% 380px;
+	background-position: top left;
 	position: relative;
+	box-sizing:border-box;
+	height: 380px;
+	max-height: 400px;
+	overflow: hidden;
 }
-.hero .faq{
-	position: absolute;
-	top:25%;
+
+/*.hero .row{
+	position: relative !important;
+}*/
+
+.faq{
+	position: absolute !important;
+	top:23%;
+
 }
 .faq h3{
 	text-transform: uppercase;
@@ -281,4 +294,7 @@ ul.social-icons-list{
 li.active a{
 	padding-bottom: 5px;
 	border-bottom: 3px solid #f84164;
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+
 }
