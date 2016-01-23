@@ -310,22 +310,28 @@ li.active a{
 .logo{
 	padding-top: 3px;
 }
+h4.second-head{
+	margin-bottom:22px;
+}
 .secondnav{
-	padding:8px 0 0;
+	padding:13px 0 12px;
 }
 ul.secondary-menu li a{
-	padding-bottom: 8px;
+	padding-bottom: 14px;
 }
 /*.babysection{
 	height:310px;
 }*/
-.search-container{
-	display: none;
+.search-container, .back-to-top{
+	display: none !important;
 }
 }
 @media only screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait){
 	.logo{
 		padding-top: 8px;
+	}
+	h4.third-head{
+		margin-bottom: 22px;
 	}
 	.hero .faq{
 		width:46%;
@@ -334,9 +340,7 @@ ul.secondary-menu li a{
 	.search-container{
 		display: none;	
 	}
-	.secondnav{
-		padding-bottom: 6px;
-	}
+	
 	.content-header h3{
 		margin-top: 35px;
 	}
@@ -350,6 +354,9 @@ ul.secondary-menu li a{
 @media only screen and (min-width: 320px) and (max-width:767px){
 	.header-container{
 		padding:20px 0 10px;
+	}
+	.back-to-top{
+		display: none !important;
 	}
 	.logo img{
 		width:40%;
@@ -403,7 +410,7 @@ ul.secondary-menu li a{
 		border:none !important;
 		background-color: #3b4a95 !important;
 		color:#fff !important;
-		padding:8px 7px;
+		padding:10px 12px;
 		cursor: pointer !important;
 	}
 	.cbp-spmenu{
@@ -423,11 +430,11 @@ ul.secondary-menu li a{
 		background-color:#293368 !important;
 		border-bottom: 1px solid #444 !important;
 	}
+	.cbp-spmenu-left li a{
+		text-transform: uppercase;
+	}
 	.cbp-spmenu h3{
 		background-color: #3b4a95 !important;
-	}
-	.responsive-menu button i {
-		margin-left: 5px;
 	}
 	ul.menu li{
 		padding-left: 15px;
