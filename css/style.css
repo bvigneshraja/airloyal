@@ -309,6 +309,9 @@ ul.secondary-menu li a{
 .babysection{
 	height:310px;
 }
+.search-container{
+	display: none;
+}
 }
 @media only screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait){
 	.logo{
