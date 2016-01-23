@@ -15,4 +15,5 @@ jQuery('html,body').animate({
 	scrollTop:0
 },duration)
 });
+jQuery('.toggle-menu').jPushMenu();
 });
