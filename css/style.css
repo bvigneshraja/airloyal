@@ -432,9 +432,11 @@ ul.secondary-menu li a{
 	}
 	.cbp-spmenu-left li a{
 		text-transform: uppercase;
+		font-size: 1em !important;
 	}
 	.cbp-spmenu h3{
 		background-color: #3b4a95 !important;
+		font-size:1.6em !important;
 	}
 	ul.menu li{
 		padding-left: 15px;
